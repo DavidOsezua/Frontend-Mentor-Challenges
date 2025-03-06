@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!--=============== ENSURES INTERNET EDGE BROWERS USES THE LATEST BROSWER REDERING ENGINE ===============-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="./imgs/favicon-32x32.png"
+      type="image/png"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!--=============== DOCUMENT TITLE ===============-->
+    <title>Payy | Simplify Your Finance</title>
+
+    <!--=============== JS ===============-->
+    <script defer src="/app.js"></script>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+
+    <section class="signIn-section">
+      <form class="form-container" id="signIn-form">
+        <div class="form-logo nav-logo">
+          <a href="/index.html"> <img src="./imgs/logo.png" alt="" /></a>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" placeholder="email@email.com" id="email" />
+          <small class="message" id="message">error</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="text" placeholder="password" id="password" />
+          <small class="message" id="message">error</small>
+        </div>
+
+        <button class="btn form-btn">
+          Login
+          <div class="spinner-3"></div>
+        </button>
+
+        <div class="or-container">
+          <div class="hr hr1"></div>
+          <p class="or">Or</p>
+          <div class="hr hr2"></div>
+        </div>
+
+        <a href="./app.html" class="btn form-btn2">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 36 35"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M35.0875 17.756C35.0875 16.5889 34.9723 15.3843 34.7803 14.2549H18.1484V20.9183H27.6743C27.2902 23.0641 26.0226 24.9464 24.1405 26.1511L29.8253 30.4804C33.167 27.4311 35.0875 22.9888 35.0875 17.756Z"
+              fill="white"
+            />
+            <path
+              d="M18.1468 34.622C22.9097 34.622 26.9044 33.0785 29.8237 30.4432L24.1389 26.1516C22.564 27.2057 20.5283 27.808 18.1468 27.808C13.5375 27.808 9.65805 24.7587 8.23686 20.6929L2.39844 25.0975C5.39447 30.9326 11.4634 34.622 18.1468 34.622Z"
+              fill="white"
+            />
+            <path
+              d="M8.23829 20.6549C7.50848 18.5091 7.50848 16.175 8.23829 14.0292L2.39986 9.58691C-0.0968297 14.4809 -0.0968297 20.2408 2.39986 25.0972L8.23829 20.6549Z"
+              fill="white"
+            />
+            <path
+              d="M18.1468 6.91429C20.6435 6.87664 23.1018 7.8178 24.9071 9.51188L29.9389 4.54257C26.7508 1.60616 22.5256 0.0250225 18.1468 0.0626688C11.4634 0.0626688 5.39447 3.752 2.39844 9.58717L8.23686 14.0294C9.65805 9.92598 13.5375 6.91429 18.1468 6.91429Z"
+              fill="white"
+            />
+          </svg>
+
+          Login with Google
+        </a>
+        <a href="./app.html" class="btn form-btn2">
+          <svg
+            width="25"
+            height="25"
+            viewBox="0 0 30 36"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.3412 3.46941C18.7288 0.476505 22.0481 0.461914 22.0481 0.461914C22.0481 0.461914 22.5418 3.27575 20.1699 5.98638C17.6373 8.88072 14.7586 8.40711 14.7586 8.40711C14.7586 8.40711 14.2181 6.13081 16.3412 3.46941ZM15.0623 10.3782C16.2906 10.3782 18.5702 8.7724 21.5375 8.7724C26.6451 8.7724 28.6545 12.229 28.6545 12.229C28.6545 12.229 24.7245 14.1399 24.7245 18.7768C24.7245 24.0076 29.6201 25.8103 29.6201 25.8103C29.6201 25.8103 26.1979 34.9712 21.5755 34.9712C19.4524 34.9712 17.8019 33.6105 15.5649 33.6105C13.2853 33.6105 11.0231 35.0219 9.54966 35.0219C5.32867 35.022 -0.00390625 26.332 -0.00390625 19.3466C-0.00390625 12.474 4.50977 8.86869 8.74341 8.86869C11.4957 8.86869 13.6314 10.3782 15.0623 10.3782Z"
+              fill="white"
+            />
+          </svg>
+
+          Login with Apple
+        </a>
+      </form>
+    </section>
+
+    <footer class="section footer-section">
+      <div></div>
+    </footer>
+  </body>
+</html>
